@@ -1,0 +1,2 @@
+Turret of the cannon is rotated to aim at the player's location
+each time "select 0" action is pressed.
