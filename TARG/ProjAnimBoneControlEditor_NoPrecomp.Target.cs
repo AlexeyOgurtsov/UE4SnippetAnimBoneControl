@@ -3,12 +3,15 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class ProjAnimBoneControlTarget : TargetRules
+public class ProjAnimBoneControlEditorTarget : TargetRules
 {
-	public ProjAnimBoneControlTarget(TargetInfo Target) : base(Target)
+	public ProjAnimBoneControlEditorTarget(TargetInfo Target) : base(Target)
 	{
-		Type = TargetType.Game;
+		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.Latest;
 		ExtraModuleNames.AddRange( new string[] { "ProjAnimBoneControl" } );
+
+		bUseUnityBuild = false;
+		bUsePCHFiles = false;
 	}
 }
