@@ -1,0 +1,30 @@
+--- Test 1:
+1. Complex collision for skel. mesh - how to enable / disable?
+
+--- Collision Test 0:
+When moving bone - will it move some actor that is on top of that?
+
+--- Phys Test 1:
+Make a ragdoll skel mesh
+1. Simple ragdoll test (+DONE)
+Q. Can we make different parts with different physics enable state?
+
+--- Phys Test 2:
+Make collidable bodies, influence force on specific bone
+
+
+--- Info:
+1. Constraints - what is it?
+2. Aggregates of physics bodies - what is it?
+3. Profiles?
+
+---- Physics body properties:
+1. Physics type: Simulated or kinematic + Default
+HINT: Use Kinematic type to make some body part NOT to repond physically!
+
+2. Simulation generates hit events
+Q. Will it generates hit events when TWO bodies of the SAME skel mesh are COLLIDED?
+
+--- Demo controls:
+1. Asserting force to specific bone (up, down, etc.)
+2. Show/Enumerate physics bodies of the selected mesh

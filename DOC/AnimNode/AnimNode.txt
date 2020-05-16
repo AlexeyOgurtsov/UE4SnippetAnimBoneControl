@@ -1,0 +1,25 @@
+------------------ Skeletal control nodes
+https://docs.unrealengine.com/en-US/Engine/Animation/NodeReference/index.html
+
+--------- Look at
+https://docs.unrealengine.com/en-US/Engine/Animation/NodeReference/SkeletalControls/LookAt/index.html
+
+1) Make Turret to follow the gun!!!
+
+
+
+-------- Bone Driven Controller
+https://docs.unrealengine.com/en-US/Engine/Animation/NodeReference/SkeletalControls/BoneDrivenController/index.html
+
+1) 
+
+-------- Trail controller
+https://docs.unrealengine.com/en-US/Engine/Animation/NodeReference/SkeletalControls/TrailController/index.html
+
+-------- CCDIK
+https://docs.unrealengine.com/en-US/Engine/Animation/NodeReference/SkeletalControls/CCDIK/index.html
+
+-------- Fabrik:
+https://docs.unrealengine.com/en-US/Engine/Animation/NodeReference/Fabrik/index.html
+
+------------------ Physical-related?

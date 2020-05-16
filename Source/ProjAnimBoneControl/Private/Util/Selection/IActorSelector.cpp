@@ -1,5 +1,7 @@
 #include "IActorSelector.h"
 
+#include "GameFramework\Pawn.h"
+
 bool IActorSelector::IsActorSelected() const
 {
 	check(GetSelectedIndex() < GetActors().Num());

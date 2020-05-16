@@ -10,5 +10,8 @@ public class ProjAnimBoneControlEditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.Latest;
 		ExtraModuleNames.AddRange( new string[] { "ProjAnimBoneControl" } );
+
+		bUseUnityBuild = false;
+		bUsePCHFiles = false;
 	}
 }
